@@ -1,0 +1,35 @@
+.about{
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+
+}
+.about-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-left img{
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    height: 70%;
+    width: 90%;
+    box-shadow: 0 0 25px #03bcf4;
+
+}
+
+.about-right{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-break: auto;
+    width: 40%;
+    height: fit-content;
+    margin-top: 250px;
+}
