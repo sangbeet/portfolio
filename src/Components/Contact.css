@@ -1,8 +1,12 @@
 .contact-area{
     height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .contact{
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,24 +19,28 @@ form{
     width: 100%;
 }
 input{
-    box-shadow: 0 0 25px #03bcf4;
+    box-shadow: 0 0 5px #03bcf4;
     border-radius: 10px;
-    height: 70px;
+    height: 7vh;
     width: 50%;
+    color: white;
     font-family:  sans-serif;
     font-size: 20px;
-    border: none;
+    border: 1px solid #03bcf4;
     font-family: sans-serif;
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-weight: 500;
+    margin:.5vh;
+    background-color: transparent;
 }
 textarea{
-    box-shadow: 0 0 25px #03bcf4;
+    box-shadow: 0 0 5px #03bcf4;
+    border: 1px solid #03bcf4;
+    background-color: transparent;
     border-radius: 10px;
     width: 50%;
     font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 5px;
+    font-weight: 500;
+    margin:.5vh;
 
 }
 .send:hover{
@@ -43,15 +51,5 @@ textarea{
     background-color: transparent;
     color: white;
 }
-.link-area{
-    width: 50%;
-}
 
-img{
-    box-shadow: 0 0 25px #03bcf4;
-    border: none;
-    border-radius: 30%;
-    background: #03bcf4;
-    width: 10%;
-    margin-top: 100px;
-}
+

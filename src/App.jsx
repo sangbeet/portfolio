@@ -4,6 +4,7 @@ import ShootingStar from "./Components/ShootingStar"
 import About from "./Components/About";
 import './App.css'
 import Contact from "./Components/Contact";
+import Carousel from "./Components/Carousel";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   <Tubelight/>
 </div>
 <About/>
+<Carousel/>
 <Contact/>
 </div>
 )
