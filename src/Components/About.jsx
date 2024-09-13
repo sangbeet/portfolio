@@ -12,10 +12,18 @@ const About = () => {
         <div className="about-left">
           <img src={profilepic} alt="" />
           <div className='icon'>
+            <a href={'https://www.linkedin.com/in/sangbeet-roy-139431232/'}>
             <img src={linked} alt=""/>
+            </a>
+            <a href="https://www.facebook.com/sangbeet.roy.3/">
             <img src={face} alt="" />
+            </a>
+            <a href="https://www.instagram.com/roysangbeet/?hl=en">
             <img src={insta} alt="" />
+            </a>
+            <a href="https://github.com/sangbeet">
             <img src={git} alt="" />
+            </a>
           </div>
         </div>
         <div className="about-right">
