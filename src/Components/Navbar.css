@@ -18,3 +18,28 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+
+
+@media(max-width:786px){
+    .nav-bar{
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        display: flex;
+        backdrop-filter: blur(1vh);
+        border-radius: 2vh;
+        border: 0.1vh solid rgba(255,255,255,0.18);
+        justify-content: space-around;
+        padding:1.6vh;
+        box-shadow:0 0.8vh 3.2vh 0 rgba(0,0,0,0.37);
+    
+    }
+    .nav-buttons{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 5vh;
+        color: #626262;
+        font-size: 1vh;
+        font-weight: 500;
+    }
+}
