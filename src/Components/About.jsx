@@ -8,7 +8,7 @@ import git from './Assets/github.png'
 const About = () => {
   return (
     <div>
-      <div className="about">
+      <div className="about" id='abt'>
         <div className="about-left">
           <img src={profilepic} alt="" />
           <div className='icon'>

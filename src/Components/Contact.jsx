@@ -3,7 +3,7 @@ import './Contact.css'
 import './Tubelight.css'
 const Contact = () => {
   return (
-    <div className='contact-area'>
+    <div className='contact-area' id='contact'>
         <h1 className='header' >CONTACT ME</h1>
         <div className='contact'>
         <form action=''>

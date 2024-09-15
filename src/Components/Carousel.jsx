@@ -18,14 +18,12 @@ const Carousel = () => {
   
     const [currentIndex, setCurrentIndex] = useState(0);
   
-    // Function to handle the next slide
     const goToNext = () => {
       const isLastSlide = currentIndex === slides.length - 1;
       const newIndex = isLastSlide ? 0 : currentIndex + 1;
       setCurrentIndex(newIndex);
     };
   
-    // Function to handle the previous slide
     const goToPrevious = () => {
       const isFirstSlide = currentIndex === 0;
       const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
@@ -33,7 +31,7 @@ const Carousel = () => {
     };
   
     return (
-    <div className='project'>
+    <div className='project' id='projects'>
         <div className="description">
             <p>{slides[currentIndex].txt}</p>
 
